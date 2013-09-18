@@ -1,0 +1,4 @@
+sudo rmmod ass1driver
+sudo insmod ass1driver.ko
+sudo chmod 777 /dev/gmem
+sudo echo 'afdsff' > /dev/gmem
